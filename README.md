@@ -11,8 +11,7 @@ Python (>= 3.8) installed on your system.
 
 Install the required libraries:
 
-bash
-Sao chép mã
+
 pip install streamlit selenium beautifulsoup4 lxml html5lib langchain python-dotenv
 Chrome WebDriver:
 
@@ -26,23 +25,19 @@ AI Model:
 Configure the Ollama LLM for LangChain usage. Refer to Ollama's official documentation.
 🚀 Setup Guide
 1️⃣ Clone the Repository
-bash
-Sao chép mã
+
 git clone <repository-url>
 cd <repository-folder>
 2️⃣ Configure Environment Variables
 Create a .env file to securely store sensitive credentials:
 
-plaintext
-Sao chép mã
+
 SUPERPROXY_AUTH=brd-customer-hl_527308d8-zone-ai_scraper:i0ny949pw63x
 3️⃣ Install Dependencies
-bash
-Sao chép mã
+
 pip install -r requirements.txt
 4️⃣ Run the Application
-bash
-Sao chép mã
+
 streamlit run app.py
 💻 How to Use
 Launch the App:
@@ -59,8 +54,7 @@ Parse Content:
 💡 Click Parse DOM to process and extract the desired information.
 📄 Results will appear below the input box.
 📁 Project Structure
-plaintext
-Sao chép mã
+
 ├── app.py                     # Main Streamlit application
 ├── scrape.py                  # Web scraping utilities (Selenium, BeautifulSoup)
 ├── parse.py                   # AI-based parsing (LangChain, Ollama)
@@ -78,8 +72,6 @@ Input URL: https://example.com
 Parsing Instruction: "Extract all headings and paragraphs related to technology."
 Output:
 
-plaintext
-Sao chép mã
 Heading: The Future of Technology
 Paragraph: Technology is rapidly evolving, with AI leading the charge...
 🤝 Contributing
